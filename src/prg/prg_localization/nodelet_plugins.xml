@@ -1,0 +1,7 @@
+<library path="lib/libprg_localization_nodelet">
+<class name="prg_localization/PrgLocalizationNodelet" type="prg_localization::PrgLocalizationNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libglobalmap_server_nodelet">
+<class name="prg_localization/GlobalmapServerNodelet" type="prg_localization::GlobalmapServerNodelet" base_class_type="nodelet::Nodelet" />
+</library>

@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="lpms_imu" type="lpms_imu_node" name="lpms_imu_node" output="screen" >
+  	<!-- node parameters -->
+	<param name="sensor_model" type="string" value="DEVICE_LPMS_U2"/>
+	<param name="port"         type="string" value="/dev/ttyUSB0"/>
+	<param name="frame_id"     type="string" value="imu"/>
+	<param name="rate"         type="int"    value="400"/>
+  </node>
+</launch>

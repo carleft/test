@@ -1,0 +1,15 @@
+<library path="lib/libscan_matching_odometry_nodelet">
+  <class name="prg_graph_slam/ScanMatchingOdometryNodelet" type="prg_graph_slam::ScanMatchingOdometryNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libfloor_detection_nodelet">
+  <class name="prg_graph_slam/FloorDetectionNodelet" type="prg_graph_slam::FloorDetectionNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libprefiltering_nodelet">
+  <class name="prg_graph_slam/PrefilteringNodelet" type="prg_graph_slam::PrefilteringNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libprg_graph_slam_nodelet">
+  <class name="prg_graph_slam/PrgGraphSlamNodelet" type="prg_graph_slam::PrgGraphSlamNodelet" base_class_type="nodelet::Nodelet" />
+</library>

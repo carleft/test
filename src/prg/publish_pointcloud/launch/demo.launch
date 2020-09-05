@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- Load ocotmap launch -->
+  <include file="$(find publish_pointcloud)/launch/octomaptransform.launch" />
+
+  <!-- RViz -->
+  <!-- <node pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="-d $(find publish_pointcloud)/rviz/OctomapShow.rviz"/> -->
+
+  <!--node name="map_saver" pkg="map_server" type="map_saver" args="-f ~/mymap map:=/projected_map"/-->  
+</launch>
+
+		
+ 
